@@ -1,0 +1,23 @@
+Mesa número: 4
+
+Data(dia/mês/ano): 10/6/2012
+Hora: 3:24:41
+
+Artigo - Preço
+
+Coca-Cola - 1€
+Camarão - 3,7€
+Queijo - 3€
+Frango - 5€
+Arroz - 2,25€
+Coca-Cola - 1€
+Vinho - 5€
+Pastel de nata - 1€
+Café - 0,5€
+Camarão - 3,7€
+Frango - 5€
+Café - 0,5€
+Camarão - 3,7€
+Camarão - 3,7€
+
+Preco total: 39,05€

@@ -1,0 +1,32 @@
+Mesa número: 7
+
+Data(dia/mês/ano): 10/6/2012
+Hora: 3:24:26
+
+Artigo - Preço
+
+Pastel de nata - 1€
+Frango - 5€
+Vinho - 5€
+Vinho - 5€
+Coca-Cola - 1€
+Frango - 5€
+Vinho - 5€
+Arroz - 2,25€
+Café - 0,5€
+Pastel de nata - 1€
+Coca-Cola - 1€
+Coca-Cola - 1€
+Coca-Cola - 1€
+Vinho - 5€
+Camarão - 3,7€
+Arroz - 2,25€
+Pastel de nata - 1€
+Coca-Cola - 1€
+Pastel de nata - 1€
+Café - 0,5€
+Coca-Cola - 1€
+Pastel de nata - 1€
+Café - 0,5€
+
+Preco total: 50,7€

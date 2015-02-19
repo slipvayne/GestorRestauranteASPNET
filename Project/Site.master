@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <link href="~/Imagens/css/tema.css" rel="stylesheet" type="text/css" /> 
+
+    <asp:ContentPlaceHolder id="HeadContent" runat="server"/>  <!-- HEAD!!!! -->   
+       
+</head>
+
+<body>
+    <form id="principal" runat="server">
+    <div>
+     <div id="wrap">
+        <div id="header">
+            <div id="menu"> 
+              <div align="center"><asp:Image ID="logo" ImageUrl="~/Imagens/logo.png" runat="server"/></div>
+            </div>
+         </div>
+        
+  <div id="content-wrap">
+    <div id="sidebar" >
+   <!-- <font color="black">User Logado: <\%= Page.User.Identity.Name %></font> -->
+      <h1 class="clear"> <asp:ImageButton ID="Menu" ImageUrl="~/Imagens/menu.png" runat="server" PostBackUrl="~/inicial.aspx"/></h1>
+      <div align="center"><font color="black"><b>Utilizador:</b> <%= Page.User.Identity.Name%></font></div>
+      
+        <ul class="sidemenu">
+         <li><asp:HyperLink ID="Mesas" NavigateUrl="~/Mesas/Mesas.aspx" ImageUrl="~/Imagens/mesas.png" runat="server" ></asp:HyperLink></li>
+         <li><asp:HyperLink ID="MesasPedidos" NavigateUrl="~/MesasPedidos/Pedidos_mesas.aspx" ImageUrl="~/Imagens/pedidos.png" runat="server"></asp:HyperLink></li>
+         <li><asp:HyperLink ID="Caixa" NavigateUrl="~/Caixa/Caixa_mesas.aspx" ImageUrl="~/Imagens/Caixa.png" runat="server"/></li>
+         <li><asp:HyperLink ID="Sistema" NavigateUrl="~/Sistema/Sistema.aspx" ImageUrl="~/Imagens/Sistema.png" runat="server"/></li>
+         <li><asp:HyperLink ID="link_logout" runat="server" ImageUrl="~/Imagens/logout.png" NavigateUrl="~/Sessoes/Logout.aspx"/></li>
+         </ul>     
+         <br />
+    </div>
+        <div id="main">   
+
+         <asp:ContentPlaceHolder id="MainContent" runat="server"/>   <!-- MAIN/BODY!!!! -->  
+          <p></p>
+
+         <div align="center">
+           <p></p>
+
+         <asp:ContentPlaceHolder id="Artigos" runat="server"/>
+                <!-- <div align="left"><asp:Button CssClass="botaoN" ID="Voltar" Text="« Voltar" runat="server" OnClientClick = "window.history.go(-1);return false;"/></div> -->
+
+         <asp:ContentPlaceHolder id="Main2Content" runat="server"/></div>     <!-- BODY2!!!! --> 
+
+       </div>
+
+  </div>
+
+</div>
+
+    <div id="footer-wrap">
+      <div class="footer-left">
+      <p class="align-left"><font color="gray"> Gestor de Restaurante - Programação Web & Modelação e Design - [ Ricardo Germano - 21190726] e [ Diogo Silva - 21190336] - 2012</font></p>
+        </div>
+        <div class="footer-right">
+         </div>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
+
+

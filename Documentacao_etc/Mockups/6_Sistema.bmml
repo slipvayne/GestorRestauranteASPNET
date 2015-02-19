@@ -1,0 +1,41 @@
+<mockup version="1.0" skin="sketch" measuredW="1166" measuredH="594" mockupW="714" mockupH="575">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="452" y="19" w="714" h="575" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>localhost</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="701" y="140" w="-1" h="-1" measuredW="229" measuredH="28" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Sistema%20/%20Configura%E7%F5es</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="494" y="125" w="68" h="375" measuredW="200" measuredH="220" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15110456</color>
+        <selectedIndex>4</selectedIndex>
+        <text>Mesas%0APedidos%0AFicheiros%0ACaixa%0ASistema%0ALogoff</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Canvas" x="562" y="125" w="544" h="375" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Button" x="625" y="240" w="99" h="81" measuredW="89" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Impressora</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="797" y="240" w="75" h="81" measuredW="67" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Rel%F3gio</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Button" x="945" y="240" w="105" h="81" measuredW="94" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Manuten%E7%E3o</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

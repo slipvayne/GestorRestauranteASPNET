@@ -1,0 +1,33 @@
+<mockup version="1.0" skin="sketch" measuredW="1166" measuredH="594" mockupW="714" mockupH="575">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="452" y="19" w="714" h="575" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>localhost</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="740" y="225" w="-1" h="-1" measuredW="193" measuredH="28" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>true</bold>
+        <size>20</size>
+        <text>Gestor%20-%20FrontOffice</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="562" y="125" w="548" h="374" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="791" y="268" w="113" h="38" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>16777215</borderColor>
+        <text>%28Menu%20Principal%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="494" y="125" w="68" h="375" measuredW="200" measuredH="220" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15110456</color>
+        <text>Mesas%0APedidos%0AFicheiros%0ACaixa%0ASistema%0ALogoff</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Calendar" x="1014" y="403" w="-1" h="-1" measuredW="96" measuredH="96" zOrder="5" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

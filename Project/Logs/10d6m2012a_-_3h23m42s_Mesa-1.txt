@@ -1,0 +1,22 @@
+Mesa número: 1
+
+Data(dia/mês/ano): 10/6/2012
+Hora: 3:23:42
+
+Artigo - Preço
+
+Camarão - 3,7€
+Queijo - 3€
+Camarão - 3,7€
+Frango - 5€
+Arroz - 2,25€
+Camarão - 3,7€
+Presunto - 2€
+Arroz de Pato - 7€
+Risoto de Frango - 9€
+Sumol - 1€
+Fino - 1€
+Margarita - 10€
+7up - 1€
+
+Preco total: 52,35€

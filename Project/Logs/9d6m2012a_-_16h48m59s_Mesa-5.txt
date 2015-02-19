@@ -1,0 +1,15 @@
+Mesa número: 5
+
+Data(dia/mês/ano): 9/6/2012
+Hora: 16:48:59
+
+Artigo - Preço
+
+Camarão - 3,7€
+Arroz - 2,25€
+Café - 0,5€
+Coca-Cola - 1,5€
+Vinho - 1,87€
+Coca-Cola - 1,5€
+
+Preco total: 11,32€
